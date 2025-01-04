@@ -56,7 +56,7 @@
       "inputType": "Checkbox",
       "validators": [],
       "title": "Este ascuns?",
-      "help": "Activarea acestui lucru este echivalentă cu aplicarea CSS "display:none" componentei."
+      "help": "Activarea acestui lucru este echivalentă cu aplicarea CSS 'display:none' componentei."
     },
     "_isVisible": {
       "type": "boolean",
@@ -65,7 +65,7 @@
       "inputType": "Checkbox",
       "validators": [],
       "title": "Este vizibil?",
-      "help": "Dezactivarea acestui lucru este echivalentă cu aplicarea CSS "visibility:hidden" componentei."
+      "help": "Dezactivarea acestui lucru este echivalentă cu aplicarea CSS 'visibility:hidden' componentei."
     },
     "_isResetOnRevisit": {
       "type": "string",
@@ -80,7 +80,7 @@
         ]
       },
       "title": "Resetați când vă întoarceți?",
-      "help": "Controlează dacă această componentă va fi resetată atunci când cursantul părăsește pagina, apoi revine la ea. Setarea "soft" va reseta componenta pentru a permite cursantului să o încerce din nou, dar nu îi va cere să facă acest lucru; în timp ce setarea "grea" le va cere să facă acest lucru. Valoarea implicită (false) nu va cauza resetarea componentei.",
+      "help": "Controlează dacă această componentă va fi resetată atunci când cursantul părăsește pagina, apoi revine la ea. Setarea 'soft' va reseta componenta pentru a permite cursantului să o încerce din nou, dar nu îi va cere să facă acest lucru; în timp ce setarea 'grea' le va cere să facă acest lucru. Valoarea implicită (false) nu va cauza resetarea componentei.",
       "validators": []
     },
     "_isA11yCompletionDescriptionEnabled": {

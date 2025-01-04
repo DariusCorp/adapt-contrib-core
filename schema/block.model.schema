@@ -91,7 +91,7 @@
       "inputType": "Checkbox",
       "validators": [],
       "title": "Este vizibil?",
-      "help": "Dezactivarea acestui lucru este echivalentă cu aplicarea CSS "visibility:hidden" blocului."
+      "help": "Dezactivarea acestui lucru este echivalentă cu aplicarea CSS 'visibility:hidden' blocului."
     },
     "_requireCompletionOf": {
       "type": "number",
