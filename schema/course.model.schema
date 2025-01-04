@@ -65,7 +65,7 @@
     "instruction": {
       "type": "string",
       "required": false,
-      "title": "Instruction text",
+      "title": "Text instrucțiuni",
       "default": "",
       "inputType": "Text",
       "validators": [],
@@ -108,7 +108,7 @@
           "editorOnly": true,
           "inputType": "Checkbox",
           "validators": [],
-          "title": "Enabled?"
+          "title": "Activat?"
         },
         "_startIds": {
           "type": "array",
@@ -251,7 +251,7 @@
                 "closeDrawer": {
                   "type": "string",
                   "title": "",
-                  "default": "Close Drawer",
+                  "default": "Închide sertar",
                   "inputType": "Text",
                   "required": true,
                   "translatable": true
@@ -267,7 +267,7 @@
                 "drawer": {
                   "type": "string",
                   "title": "",
-                  "default": "Top of side drawer",
+                  "default": "Partea superioară laterală a sertarului",
                   "inputType": "Text",
                   "required": true,
                   "translatable": true
@@ -380,7 +380,7 @@
           "properties": {
             "_drawer": {
               "type": "object",
-              "title": "Drawer",
+              "title": "Sertar",
               "default": {},
               "properties": {
                 "_navOrder": {
@@ -400,7 +400,7 @@
                       "default": true,
                       "inputType": "Checkbox",
                       "validators": [],
-                      "title": "Enabled?"
+                      "title": "Activat?"
                     },
                     "text": {
                       "type": "string",
@@ -457,7 +457,7 @@
                       "default": true,
                       "inputType": "Checkbox",
                       "validators": [],
-                      "title": "Enabled?"
+                      "title": "Activat?"
                     },
                     "text": {
                       "type": "string",
@@ -510,7 +510,7 @@
           "default": true,
           "inputType": "Checkbox",
           "validators": [],
-          "title": "Enabled?"
+          "title": "Activat?"
         }
       }
     },
@@ -526,6 +526,7 @@
           "properties": {
             "buttonText": {
               "type": "string",
+              "title": "Text buton",
               "default": "Trimite",
               "inputType": "Text",
               "required": true,
@@ -553,6 +554,7 @@
           "properties": {
             "buttonText": {
               "type": "string",
+              "title": "Text buton",
               "default": "Reset",
               "inputType": "Text",
               "required": true,
@@ -580,6 +582,7 @@
           "properties": {
             "buttonText": {
               "type": "string",
+              "title": "Text buton",
               "default": "Afișează răspunsul corect",
               "inputType": "Text",
               "required": true,
@@ -607,6 +610,7 @@
           "properties": {
             "buttonText": {
               "type": "string",
+              "title": "Text buton",
               "default": "Afișează-ți răspunsul",
               "inputType": "Text",
               "required": true,
@@ -634,6 +638,7 @@
           "properties": {
             "buttonText": {
               "type": "string",
+              "title": "Text buton",
               "default": "Arată feedback",
               "inputType": "Text",
               "required": true,
