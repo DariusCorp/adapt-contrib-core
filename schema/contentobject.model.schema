@@ -76,7 +76,7 @@
           "default": "",
           "inputType": "Text",
           "validators": [],
-          "help": "O descriere a imaginii; necesar atunci când are un sens care trebuie transmis elevului. Pentru imaginile "decorative", lăsați acest lucru necompletat.",
+          "help": "O descriere a imaginii; necesar atunci când are un sens care trebuie transmis elevului. Pentru imaginile 'decorative', lăsați acest lucru necompletat.",
           "translatable": true
         },
         "src": {
@@ -115,7 +115,7 @@
       "title": "Blocat de",
       "inputType": "List",
       "validators": [],
-      "help": "Dacă cursul folosește un tip de blocare a meniului "personalizat", acesta ar trebui să conțină ID-ul unic al elementului (articolelor) care trebuie finalizat înainte de a fi deblocat"
+      "help": "Dacă cursul folosește un tip de blocare a meniului 'personalizat', acesta ar trebui să conțină ID-ul unic al elementului (articolelor) care trebuie finalizat înainte de a fi deblocat"
     },
     "_lockType": {
       "type": "string",

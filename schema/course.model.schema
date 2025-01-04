@@ -748,7 +748,7 @@
             ]
           },
           "validators": [],
-          "help": "Când fereastra browserului utilizatorului este cel puțin atât de largă, etichetele vor fi afișate. Opțiunile se referă la punctele de întrerupere standard Adaptare. Opțiunea "orice" va afișa eticheta la orice dimensiune."
+          "help": "Când fereastra browserului utilizatorului este cel puțin atât de largă, etichetele vor fi afișate. Opțiunile se referă la punctele de întrerupere standard Adaptare. Opțiunea 'orice' va afișa eticheta la orice dimensiune."
         },
         "_labelPosition": {
           "type": "string",

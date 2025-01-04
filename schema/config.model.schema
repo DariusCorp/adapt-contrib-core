@@ -482,9 +482,9 @@
           "inputType": "Text",
           "title": "Înlocuirea browserelor acceptate",
           "validators": [],
-          "help": "Setați browserele acceptate. Suprascrie setările implicite ale cadrului dacă nu sunt goale. Valorile implicite actuale sunt: "ultimele 2 versiuni Chrome, ultimele 2 versiuni Firefox, ultimele 2 versiuni safari, ultimele 2 versiuni edge, ultimele 2 versiuni ios_saf, ultimele 2 versiuni and_chr, firefox esr'"
+          "help": "Setați browserele acceptate. Suprascrie setările implicite ale cadrului dacă nu sunt goale. Valorile implicite actuale sunt: 'ultimele 2 versiuni Chrome, ultimele 2 versiuni Firefox, ultimele 2 versiuni safari, ultimele 2 versiuni edge, ultimele 2 versiuni ios_saf, ultimele 2 versiuni and_chr, firefox esr'"
         }
       }
     }
-  }
+  }`
 }
