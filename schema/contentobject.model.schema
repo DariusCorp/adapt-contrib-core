@@ -25,6 +25,7 @@
     },
     "subtitle": {
       "type": "string",
+      "title": "Subtitlu",
       "required": false,
       "default": "",
       "inputType": "Text",
@@ -34,6 +35,7 @@
     },
     "pageBody":{
       "type": "string",
+      "title": "Conținut pagină",
       "default" : "",
       "inputType": "TextArea",
       "validators": [],
@@ -42,6 +44,7 @@
     },
     "body":{
       "type": "string",
+      "title": "Conținut",
       "default" : "",
       "inputType": "TextArea",
       "validators": [],
@@ -67,7 +70,7 @@
     },
     "_graphic": {
       "type": "object",
-      "title": "",
+      "title": "Grafic",
       "properties": {
         "alt": {
           "type": "string",
@@ -93,7 +96,7 @@
       "type": "string",
       "required": false,
       "title": "Textul link-ului butonului",
-      "default": "View",
+      "default": "Vizualizare",
       "inputType": "Text",
       "validators" : ["required"],
       "translatable": true
