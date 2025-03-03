@@ -17,7 +17,7 @@
       "type": "string",
       "required": false,
       "title": "Titlu afișat",
-      "default": "Titlu articol",
+      "default": "",
       "inputType": "DisplayTitle",
       "validators": [],
       "help": "Când vizualizați un articol - acesta este titlul care va fi afișat pe pagină",

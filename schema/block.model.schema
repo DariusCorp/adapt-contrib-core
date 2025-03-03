@@ -24,7 +24,7 @@
     "displayTitle": {
       "type": "string",
       "required": false,
-      "default": "Titlul blocului nou",
+      "default": "",
       "title": "Titlul afișat",
       "inputType": "DisplayTitle",
       "validators": [],
