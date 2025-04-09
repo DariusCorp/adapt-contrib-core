@@ -104,6 +104,7 @@
     "title": {
       "type": "string",
       "required": true,
+      "title": "Titlu",
       "default": "Titlul componentei noi",
       "inputType": "Text",
       "validators": ["required"],
@@ -112,6 +113,7 @@
     "displayTitle": {
       "type": "string",
       "required": false,
+      "title": "Titlu afișat",
       "default": "Titlul componentei noi",
       "inputType": "DisplayTitle",
       "validators": [],
