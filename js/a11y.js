@@ -2,6 +2,7 @@ import Adapt from 'core/js/adapt';
 import offlineStorage from 'core/js/offlineStorage';
 import device from 'core/js/device';
 import location from 'core/js/location';
+import AriaDisabled from './a11y/ariaDisabled';
 import BrowserConfig from './a11y/browserConfig';
 import BrowserFocus from 'core/js/a11y/browserFocus';
 import FocusOptions from 'core/js/a11y/focusOptions';
@@ -80,6 +81,7 @@ class A11y extends Backbone.Controller {
     this._htmlCharRegex = /&.*;/g;
     /** @type {Object} */
     this.config = null;
+    this._ariaDisabled = new AriaDisabled({ a11y: this });
     this._browserConfig = new BrowserConfig({ a11y: this });
     this._browserFocus = new BrowserFocus({ a11y: this });
     this._keyboardFocusOutline = new KeyboardFocusOutline({ a11y: this });
@@ -438,12 +440,15 @@ class A11y extends Backbone.Controller {
     const config = this.config;
     $element = $($element).first();
 
+    const isInDOM = Boolean($element.parents('body').length);
+    if (!isInDOM) return false;
+
+    const isOutsideOpenPopup = this.isPopupOpen && !this.popupStack?.lastItem[0]?.contains($element[0]);
+    if (isOutsideOpenPopup) return null;
+
     const $branch = checkParents
       ? $element.add($element.parents())
       : $element;
-
-    const isInDOM = Boolean($element.parents('body').length);
-    if (!isInDOM) return false;
 
     const isNotVisible = $branch.toArray().some(item => {
       const style = window.getComputedStyle(item);
