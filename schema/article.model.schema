@@ -107,6 +107,7 @@
       "type": "object",
       "title": "On-screen classes",
       "help": "These settings allow you to attach classes to the article when it is within the browser's viewport; helpful for running CSS-based animations on articles as they scroll into view.",
+      "isHidden": true,
       "properties": {
         "_isEnabled": {
           "type": "boolean",

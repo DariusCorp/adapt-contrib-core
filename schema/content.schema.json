@@ -118,6 +118,7 @@
       "type": "object",
       "title": "Cursuri de animație",
       "description": "Aceste setări vă permit să atașați clase la element atunci când acesta se află în fereastra de vizualizare a browserului; util pentru rularea animațiilor bazate pe CSS pe elemente pe măsură ce se derulează în vizualizare",
+      "isHidden": true,
       "default": {},
       "properties": {
         "_isEnabled": {

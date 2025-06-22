@@ -132,6 +132,7 @@
       "type": "object",
       "title": "Cursuri pe ecran",
       "help": "Aceste setări vă permit să atașați clase la componentă atunci când se află în fereastra de vizualizare a browserului; util pentru rularea animațiilor bazate pe CSS pe componente pe măsură ce derulează în vizualizare.",
+      "isHidden": true,
       "properties": {
         "_isEnabled": {
           "type": "boolean",
