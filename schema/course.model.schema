@@ -781,7 +781,7 @@
       "items": {
         "type": "objectid",
         "inputType": "Text",
-        "required": false,
+        "required": true,
         "editorOnly": true,
         "ref": "tag"
       },
