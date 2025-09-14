@@ -781,12 +781,13 @@
       "items": {
         "type": "objectid",
         "inputType": "Text",
-        "required": true,
+        "required": false,
         "editorOnly": true,
         "ref": "tag"
       },
       "title": "Informații relevante - Metadate (materie, clasă, domeniu de conținut, conținut, competențe, cuvinte cheie)",
       "help": "Adăugați etichete la curs introducând unul sau mai multe cuvinte, separate cu virgulă (,)",
+      "validators": ["required"],
       "editorOnly": true
     },
     "_classes": {
